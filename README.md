@@ -1,1 +1,1 @@
-# tinder-clone-client
+# tinder-clone
