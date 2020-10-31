@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Always keeps at the top if you have a long page */
+  z-index: 100;
+  border-bottom: 1px solid #f9f9f9;
+  
+}
+
+.header__logo {
+  /* This keeps the aspect ratio */
+  object-fit: contain;
+  height: 40px;
+}
+
+.header__icon {
+  padding: 20px;
+}
